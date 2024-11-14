@@ -1,0 +1,11 @@
+Estado de Cuenta
+-----------------
+ID: 1, Descripción: Compra en Cine, Monto: ₡7000
+ID: 2, Descripción: Pago de Telefono, Monto: ₡20000
+ID: 3, Descripción: Renta de Carro, Monto: ₡150000
+ID: 4, Descripción: Pago de Grua, Monto: ₡100000
+
+Monto Total de Contado: ₡277000
+Monto Total con Interés (2.6%): ₡284202
+Cash Back (0.1%): ₡277
+Monto Final a Pagar: ₡283925
