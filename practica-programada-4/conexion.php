@@ -5,9 +5,10 @@ $host = 'localhost';
 $dbname = 'todo_app';
 $user = 'root';
 $password = 'test123';
+$port = '3307';
 
 try {
-    $pdo = new PDO("mysql:host=$host;dbname=$dbname",$user,$password);
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname;port=$port",$user,$password);
     $pdo -> setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     logDebug("DB Conexion Exitosa");
 
